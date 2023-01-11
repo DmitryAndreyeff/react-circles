@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.circle-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  padding: 20px;
+}
+
+.circle-list > div {
+  width: 50%;
+  height: 50%;
+}
